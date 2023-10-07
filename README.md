@@ -34,13 +34,13 @@ We welcome contributions from the community to make Scrollable Hotspot Widget ev
 
 ## License
 
-This project is licensed under the [License Name]. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT Licence. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
 If you have any questions or feedback, please feel free to reach out to us at fazlabol18@gmail.com. 📧
 
-We have designed Scrollable Hotspot Widget with a user-friendly interface and attractive visuals to enhance your experience. We have also implemented SEO best practices to ensure better visibility and ranking in search engines. 🌐✨
+We have designed Scrollable Hotspot Widget with a user-friendly interface and attractive visuals to enhance your experience. 🌐✨
 
 We hope you enjoy using Scrollable Hotspot Widget! 
 
