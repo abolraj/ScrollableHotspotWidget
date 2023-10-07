@@ -1,0 +1,52 @@
+/* Elementor Hotspot Widget > Custom CSS */
+
+selector {
+    --image-url:url('https://www.albedopro.com/wp-content/uploads/2023/10/large-canvas.svg');
+    --scaler:0.7;
+    
+    box-sizing: border-box;
+    /*border: 10px solid cyan;*/
+    /*height: 100vh;*/
+    /*background-image: var(--image-url);*/
+    background-size:contain;
+
+}
+
+#container {
+    direction: ltr;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*border-radius: 20px;*/
+    /*border:10px solid blue;*/
+    /* Set the height of the container to be larger than the screen */
+    cursor:grab;
+
+    /* background: repeating-linear-gradient(to right, #f00, #00f 10%); */
+    /*overflow: hidden;*/
+}
+
+#drag-area {
+    /*border:10px solid red;*/
+    width: calc(3840px * var(--scaler));
+    height: calc(2560px * var(--scaler));
+    position: relative;
+    /*width: 150%;*/
+    /*height: 150%;*/
+    
+    background-color: #487346;
+    background-image: var(--image-url);
+background-position: center;
+    background-size: cover;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
